@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .flex{
+            padding:10px;
+        }
+        .gird{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            background: plum;
+            padding:10px
+        }
+        .box{
+             background: lemonchiffon;
+             color: cadetblue;
+             text-align:center;
+             padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display:inline</h1>
+    <span class="inline">A</span>
+     <span class="inline">B</span>
+
+
+    <h1>Display:block</h1>
+    <div class="block">block 1</div>
+    <div class="block">block 2</div>
+    
+</body>
+</html>
