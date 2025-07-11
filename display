@@ -2,19 +2,49 @@
 <html lang="en">
 <head>
     <style>
+        .inline{
+            display:inline;
+            background:lightgray;
+            padding:20px;
+            margin:20px;
+        }
+        .block{
+            display:block;
+            background: lightskyblue;
+            padding:20px;
+            margin: 20px;
+        }
+        .inline-block{
+            display: inline-block;
+            background: maroon;
+            padding:20px;
+            margin:20px;
+            height:50px;
+            width: 200px;
+        }
+        .none{
+            display: none;
+            background: blue;
+            padding:20px;
+            margin:20px;
+
+        }
         .flex{
+            display: flex;
+            background:purple;
             padding:10px;
+            margin:20px
         }
         .gird{
             display:grid;
+            background:black;
+            padding:10px;
+            margin:20px;
             grid-template-columns: repeat(3,1fr);
-            gap: 10px;
-            background: plum;
-            padding:10px
         }
         .box{
-             background: lemonchiffon;
-             color: cadetblue;
+             background:violet;
+             color: white;
              text-align:center;
              padding:10px;
         }
@@ -29,6 +59,36 @@
     <h1>Display:block</h1>
     <div class="block">block 1</div>
     <div class="block">block 2</div>
-    
+
+    <h1>Display:Inline-block</h1>
+    <div class="inline-block">box1</div>
+    <div class="inline-block">box2</div>
+    <div class="inline-block">box3</div>
+
+
+    <h1>Display:None</h1>
+    <div class="none">this is element none</div>
+    <div class="none">this is element none</div>
+
+    <h1>Display:Flex</h1>
+        <div class="flex">box1</div>
+        <div class="flex">box2</div>
+        <div class="flex">box3</div>
+    </div>
+
+    <h1>Display:grid</h1>
+        <div class="grid">
+            <div class="box">A</div>
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</diV>
+            <div class="box">E</div>
+            <div class="box">F</div>    
+
+    </div>
+
+    <h1>Display:box</h1>
+    <div class="box">this is a box1</div>
+    <div class="box">this is a box2</div>
 </body>
 </html>
